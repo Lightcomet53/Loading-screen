@@ -98,7 +98,7 @@ body {
 .bottom-bar .loading-title-1 {
   font-weight: 400;
   opacity: 0.9;
-  animation: title-1 0.3s 3s forwards;
+  animation: title-1 0.4s 3s forwards;
 }
 
 @keyframes title-1 {
@@ -111,12 +111,12 @@ body {
   opacity: 0;
   position: absolute;
   top: 100px;
-  animation: title-2 0.3s 3s forwards;
+  animation: title-2 0.4s 3s forwards;
 }
 
 @keyframes title-2 {
   from {opacity: 0; top: 100px;}
-  to {opacity: 0.9; top: 60px;}
+  to {opacity: 0.9; top: 59px;}
 }
 
 .loading-title-3 {
@@ -126,11 +126,13 @@ body {
   letter-spacing: 0.5px;
   position: absolute;
   top: 85px;
-  animation: title-3 0.3s 3s forwards;
+  animation: title-3 1.5s 3s forwards;
 }
 
 @keyframes title-3 {
-  from {opacity: 0; top: 100px;}
-  to {opacity: 0.9; top: 85px;}
+  0% {opacity: 0; top: 100px;}
+  10% {opacity: 0.9; top: 85px;}
+  90% {opacity: 0.9; top: 85px;}
+  100% {opacity: 0; top: 100px;}
 }
 
